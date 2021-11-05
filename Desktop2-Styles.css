@@ -1,0 +1,439 @@
+#sec1 {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 80px;
+	display: flex;
+}
+
+#search {
+	max-width: 972.65px;
+	width: 100%;
+	height: 58.37px;
+	border-radius: 9.1462px;
+	font-family: FontAwesome, Arial, Helvetica, sans-serif;
+	padding-right: 10%;
+}
+
+#txt-search {
+	height: 58.37px;
+	font-size: 30px;
+	box-shadow: 6px 9px 47px rgba(56, 56, 56, 0.1);
+	border-radius: 9.1462px;
+}
+
+#bell-icon {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding: 10px;
+	font-size: 50px;
+}
+
+#profile-icon {
+	font-size: 30px;
+	padding-left: 20px;
+	padding: 10px;
+}
+
+#sec2 {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	display: flex;
+}
+
+#s2 {
+	width: 803px;
+	min-height: 183px;
+	border: 0.19px solid rgba(0, 0, 0, 0.38);
+	box-sizing: border-box;
+	box-shadow: 6px 9px 47px rgba(56, 56, 56, 0.1);
+	border-radius: 16.0059px;
+	display: flex;
+	padding-right: 5%;
+	align-items: center;
+}
+
+#teacher-img {
+	height: 220px;
+	padding-top: -37px;
+	padding-right: -25px;
+	vertical-align: middle;
+}
+
+#s2c2 {
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 5%;
+}
+
+#s2c2-bold {
+	font-weight: bold;
+	font-size: 32.16px;
+	line-height: 42px;
+	color: #2A365D;
+}
+
+#s2c2-normal {
+	font-size: 18.2924px;
+	line-height: 27px;
+	color: #4B4B4B;
+	padding: 5%;
+}
+
+#sec3 {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#s3c1 {
+	font-weight: 600;
+	font-size: 27.9px;
+	line-height: 42px;
+	color: #A91938;
+}
+
+#s3c2 {
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#s3c21 {
+	display: flex;
+	max-width: 1045px;
+	width: 100%;
+	height: auto;
+	box-shadow: 7px 10px 34px rgba(83, 83, 83, 0.16);
+	border-radius: 5.29px;
+	align-items: center;
+	padding: 2%;
+	flex-flow: row wrap;
+}
+
+#microprocessor-img {
+	height: 70px;
+}
+
+#s3c211 {
+	padding: 3%;
+}
+
+#s3c2-bold {
+	font-weight: 600;
+	font-size: 27.9px;
+	line-height: 42px;
+	color: #A91938;
+}
+
+#s3c2-normal {
+	font-size: 23.4839px;
+	line-height: 28px;
+	color: #FF877D;
+}
+
+#s3c212 {
+	display: flex;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	width: 100%;
+	flex: 1;
+}
+
+#s3c2122 {
+	font-size: 18.2045px;
+	line-height: 21px;
+	color: #A91938;
+	padding-left: 10%;
+}
+
+#s3c213 {
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	display: flex;
+	flex: 1;
+}
+
+#s3c2132 {
+	font-size: 18.2045px;
+	line-height: 21px;
+	color: #A91938;
+	padding-left: 10%;
+}
+
+#s3c214 {
+	flex: 1.5;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+#continue {
+	width: 100%;
+	height: 72.26px;
+	background: #A91938;
+	border-radius: 14.4516px;
+	font-weight: bold;
+	font-size: 23.4839px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+#s3c22 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 2%;
+}
+
+.circle-arrow {
+	width: 72.26px;
+	height: 72.26px;
+	text-align: center;
+	border: 3.6129px solid #A91938;
+	border-radius: 100%;
+	padding-top: 22px;
+	flex: 1;
+	margin: 10px;
+}
+
+.nav-item {
+	font-weight: 600;
+	font-size: 18.2924px;
+	line-height: 27px;
+	color: #A91938;
+	background-color: #FFFFFF;
+	opacity: 0.3;
+}
+
+.current {
+	background-color: #FFFFFF;
+	opacity: 100%;
+	color: #A91938;
+}
+
+.nav-link:visited {
+	color: #A91938;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+#sec4 {
+	padding-left: 5%;
+	padding-right: 5%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#s4c1 {
+	flex: 1;
+	padding-right: 2%;
+}
+
+.banner {
+	display: flex;
+	max-width: 708.83px;
+	width: 100%;
+	height: auto;
+	background: #FFAAA3;
+	border-radius: 16.0059px;
+	align-items: center;
+	padding: 1%;
+	flex-flow: row wrap;
+	margin: 1%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.content-details {
+	padding-left: 3%;
+	padding-right: 3%;
+	flex: 2;
+}
+
+.content-name {
+	font-weight: bold;
+	font-size: 18.2924px;
+	line-height: 27px;
+	color: #A91938;
+}
+
+.lecture-number {
+	font-weight: normal;
+	font-size: 14.8626px;
+	line-height: 17px;
+	color: #A91938;
+}
+
+.duration {
+	display: flex;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 100%;
+	flex: 1;
+}
+
+.time {
+	font-size: 14.8626px;
+	line-height: 17px;
+	color: #A91938;
+	padding-left: 5%;
+}
+
+.rating {
+	padding-left: 1%;
+	padding-right: 1%;
+	display: flex;
+	flex: 0.5;
+}
+
+.value {
+	font-size: 14.8626px;
+	line-height: 17px;
+	color: #A91938;
+	padding-left: 5%;
+}
+
+.edit-button {
+	flex: 1.5;
+}
+
+.edit-video-btn {
+	width: 100%;
+	height: 45.73px;
+	border: 2.28655px solid #A91938;
+	box-sizing: border-box;
+	border-radius: 9.1462px;
+	font-weight: bold;
+	font-size: 14.8626px;
+	line-height: 17px;
+	color: #A91938;
+	background: #FFAAA3;
+}
+
+#s4c2 {
+	flex: 1;
+	padding-left: 2%;
+}
+
+#s4c21 {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.count {
+	max-width: 237.8px;
+	width: 100%;
+	background: #74B2EA;
+	border-radius: 16.0059px;
+	display: flex;
+	align-items: center;
+	padding: 2%;
+	margin: 2%;
+}
+
+.count-bold {
+	font-weight: bold;
+	font-size: 66px;
+	line-height: 99px;
+	color: #FFFFFF;
+	padding-right: 2%;
+}
+
+.count-normal {
+	font-size: 18.2924px;
+	line-height: 27px;
+	color: #FFFFFF;
+	padding-left: 2%;
+}
+
+#s4c22 {
+	font-weight: bold;
+	font-size: 27.4386px;
+	line-height: 41px;
+	color: #2A365D;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#s4c23 {
+	display: flex;
+	flex-flow: row wrap;
+	column-gap: 50%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#s4c231 {
+	font-weight: 600;
+	font-size: 18.2924px;
+	line-height: 27px;
+	color: #2A365D;
+	padding: 1%;
+}
+
+#menu {
+	max-width: 100.61px;
+	width: 100%;
+	height: 36.58px;
+	background: rgba(116, 178, 234, 0.32);
+	border-radius: 9.1462px;
+	font-weight: bold;
+	font-size: 14.8626px;
+	line-height: 17px;
+	color: #2A365D;
+	border-width: 0;
+}
+
+#s424 {
+	padding: 2%;
+}
+
+#graph {
+	width: 100%;
+}
+
+footer {
+	background-color: #A91938;
+	color: #FFFFFF;
+}
+
+#ftxt {
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFFFF;
+	color: #A91938;
+}
+
+#fcol1 {
+	text-align: left;
+}
+
+#fcol2 {
+	text-align: left;
+}
+
+#fcol3 {
+	text-align: left;
+}
+
+#fcol4 {
+	text-align: right;
+	font-size: small;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	vertical-align: middle;
+}
+
+#social-media-icons {
+	padding-top: 20px;
+}
+
+.fab {
+	font-size: 20px;
+}

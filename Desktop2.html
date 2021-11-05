@@ -1,0 +1,411 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous">
+	</script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous">
+	</script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous">
+	</script>
+	<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+		crossorigin="anonymous"/>
+	<link
+		rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+		crossorigin="anonymous">
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+		crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" href="Desktop2-Styles.css"/>
+	<title>Desktop2</title>
+</head>
+<body>
+	<section id="sec1">
+		<div id="search">
+			<input class="form-control" type="text" id="txt-search" placeholder="">
+		</div>
+		<div id="bell-icon">
+			<svg width="28" height="31" viewBox="0 0 28 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M26.7839 13.9493C26.2711 13.9493 25.855 13.5331 25.855 13.0204C25.855 9.46324 24.4705 6.12043 21.9561 3.60493C21.5932 3.24208 21.5932 2.6538 21.9561 2.29094C22.319 1.92808 22.9072 1.92808 23.2703 2.29094C26.1351 5.15682 27.7128 8.96794 27.7128 13.0204C27.7128 13.5331 27.2967 13.9493 26.7839 13.9493Z" fill="#0C0B0B"/>
+				<path d="M1.39388 13.9492C0.881116 13.9492 0.464966 13.5331 0.464966 13.0203C0.464966 8.96791 2.04294 5.15679 4.90882 2.29204C5.27167 1.92918 5.86018 1.92918 6.22303 2.29204C6.58589 2.6549 6.58589 3.2434 6.22303 3.60626C3.70754 6.1204 2.32279 9.46321 2.32279 13.0203C2.32279 13.5331 1.90664 13.9492 1.39388 13.9492Z" fill="#0C0B0B"/>
+				<path d="M14.0889 30.3601C11.5276 30.3601 9.44434 28.2769 9.44434 25.7156C9.44434 25.2028 9.86049 24.7867 10.3732 24.7867C10.886 24.7867 11.3022 25.2028 11.3022 25.7156C11.3022 27.2527 12.5517 28.5023 14.0889 28.5023C15.6258 28.5023 16.8756 27.2527 16.8756 25.7156C16.8756 25.2028 17.2918 24.7867 17.8045 24.7867C18.3173 24.7867 18.7334 25.2028 18.7334 25.7156C18.7334 28.2769 16.6502 30.3601 14.0889 30.3601Z" fill="#0C0B0B"/>
+				<path d="M24.307 26.6445H3.87098C2.6756 26.6445 1.70337 25.6723 1.70337 24.4771C1.70337 23.8428 1.97959 23.2423 2.46151 22.8298C4.34519 21.2382 5.41901 18.9248 5.41901 16.4737V13.0204C5.41901 8.23978 9.30815 4.35065 14.089 4.35065C18.8696 4.35065 22.7588 8.23978 22.7588 13.0204V16.4737C22.7588 18.9248 23.8326 21.2382 25.704 22.8211C26.1982 23.2423 26.4744 23.8428 26.4744 24.4771C26.4744 25.6723 25.5022 26.6445 24.307 26.6445ZM14.089 6.20847C10.3323 6.20847 7.27684 9.26394 7.27684 13.0204V16.4737C7.27684 19.472 5.96284 22.3034 3.67277 24.2392C3.62945 24.2764 3.56119 24.3533 3.56119 24.4771C3.56119 24.6454 3.70248 24.7867 3.87098 24.7867H24.307C24.4753 24.7867 24.6166 24.6454 24.6166 24.4771C24.6166 24.3533 24.5485 24.2764 24.5075 24.2417C22.2149 22.3034 20.9009 19.472 20.9009 16.4737V13.0204C20.9009 9.26394 17.8455 6.20847 14.089 6.20847Z" fill="#0C0B0B"/>
+				<path d="M14.0889 6.20848C13.5762 6.20848 13.16 5.79233 13.16 5.27956V1.56392C13.16 1.05116 13.5762 0.63501 14.0889 0.63501C14.6017 0.63501 15.0179 1.05116 15.0179 1.56392V5.27956C15.0179 5.79233 14.6017 6.20848 14.0889 6.20848Z" fill="#0C0B0B"/>
+			</svg>				
+		</div>
+		<div id="profile-icon">
+			<i class="fas fa-user-circle"></i>
+		</div>
+	</section>
+	<section id="sec2">
+		<div id="s2">
+			<div id="s2c1">
+				<img src="assets/teacher.svg" alt="teacher image" id="teacher-img">
+			</div>
+			<div id="s2c2">
+				<div id="s2c2-bold">
+					Lets make learning much easier
+				</div>
+				<div id="s2c2-normal">
+					Add a new course now.
+					<img src="assets/blue-right-arrow.svg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="sec3">
+		<div id="s3c1">
+			Courses
+		</div>
+		<div id="s3c2">
+			<div id="s3c21">
+				<img src="assets/microprocessor.png" alt="microprocessor" id="microprocessor-img">
+				<div id="s3c211">
+					<div id="s3c2-bold">
+						Basics of Microprocessor
+					</div>
+					<div id="s3c2-normal">
+						8085 Microprocessor
+					</div>
+				</div>
+				<div id="s3c212">
+					<div id="time-img">
+						<img src="assets/time-img.svg" alt="time image">
+					</div>
+					<div id="s3c2122">
+						5h 35min
+					</div>
+				</div>
+				<div id="s3c213">
+					<div id="profile-icon-svg">
+						<img src="assets/profile-icon.svg" alt="">
+					</div>
+					<div id="s3c2132">
+						213
+					</div>
+				</div>
+				<div id="s3c214">
+					<button id="continue">
+						Continue
+					</button>
+				</div>
+			</div>
+			<div id="s3c22">
+				<div id="left-arrow" class="circle-arrow">
+					<img src="assets/left-arrow.svg" alt="left arrow">
+				</div>
+				<div id="right-arrow" class="circle-arrow">
+					<img src="assets/right-arrow.svg" alt="right arrow">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="sec4">
+		<div id="s4c1">
+			<nav class="nav nav-pills">
+				<a class="nav-item nav-link current" href="#">All Videos</a>
+				<a class="nav-item nav-link" href="#">The Newest</a>
+			</nav>	
+			<div class="banner">
+				<img src="assets/video-thumbnail-1.png" alt="thumbnail">
+				<div class="content-details">
+					<div class="content-name">
+						Pin Diagram
+					</div>
+					<div class="lecture-number">
+						Video Lecture - 3
+					</div>
+				</div>
+				<div class="duration">
+					<div class="clock-img">
+						<img src="assets/clock.svg" alt="clock">
+					</div>
+					<div class="time">
+						1h 30min
+					</div>
+				</div>
+				<div class="rating">
+					<div class="fire-icon">
+						<img src="assets/fire.svg" alt="">
+					</div>
+					<div class="value">
+						4.9
+					</div>
+				</div>
+				<div class="edit-button">
+					<button class="edit-video-btn">
+						Edit Video
+					</button>
+				</div>
+			</div>	
+			<div class="banner">
+				<img src="assets/video-thumbnail-2.png" alt="thumbnail">
+				<div class="content-details">
+					<div class="content-name">
+						8085 Introduction
+					</div>
+					<div class="lecture-number">
+						Video Lecture - 1
+					</div>
+				</div>
+				<div class="duration">
+					<div class="clock-img">
+						<img src="assets/clock.svg" alt="clock">
+					</div>
+					<div class="time">
+						2h 15min
+					</div>
+				</div>
+				<div class="rating">
+					<div class="fire-icon">
+						<img src="assets/fire.svg" alt="">
+					</div>
+					<div class="value">
+						4.7
+					</div>
+				</div>
+				<div class="edit-button">
+					<button class="edit-video-btn">
+						Edit Video
+					</button>
+				</div>
+			</div>
+			<div class="banner">
+				<img src="assets/video-thumbnail-3.png" alt="thumbnail">
+				<div class="content-details">
+					<div class="content-name">
+						Timing States
+					</div>
+					<div class="lecture-number">
+						Video Lecture - 11
+					</div>
+				</div>
+				<div class="duration">
+					<div class="clock-img">
+						<img src="assets/clock.svg" alt="clock">
+					</div>
+					<div class="time">
+						1h 40min
+					</div>
+				</div>
+				<div class="rating">
+					<div class="fire-icon">
+						<img src="assets/fire.svg" alt="">
+					</div>
+					<div class="value">
+						4.6
+					</div>
+				</div>
+				<div class="edit-button">
+					<button class="edit-video-btn">
+						Edit Video
+					</button>
+				</div>
+			</div>
+			<div class="banner">
+				<img src="assets/video-thumbnail-4.png" alt="thumbnail">
+				<div class="content-details">
+					<div class="content-name">
+						Machine Cycles
+					</div>
+					<div class="lecture-number">
+						Video Lecture - 8
+					</div>
+				</div>
+				<div class="duration">
+					<div class="clock-img">
+						<img src="assets/clock.svg" alt="clock">
+					</div>
+					<div class="time">
+						1h 30min
+					</div>
+				</div>
+				<div class="rating">
+					<div class="fire-icon">
+						<img src="assets/fire.svg" alt="">
+					</div>
+					<div class="value">
+						4.8
+					</div>
+				</div>
+				<div class="edit-button">
+					<button class="edit-video-btn">
+						Edit Video
+					</button>
+				</div>
+			</div>
+			<div class="banner">
+				<img src="assets/video-thumbnail-5.png" alt="thumbnail">
+				<div class="content-details">
+					<div class="content-name">
+						Addressing Modes
+					</div>
+					<div class="lecture-number">
+						Video Lecture - 6
+					</div>
+				</div>
+				<div class="duration">
+					<div class="clock-img">
+						<img src="assets/clock.svg" alt="clock">
+					</div>
+					<div class="time">
+						1h 35min
+					</div>
+				</div>
+				<div class="rating">
+					<div class="fire-icon">
+						<img src="assets/fire.svg" alt="">
+					</div>
+					<div class="value">
+						4.7
+					</div>
+				</div>
+				<div class="edit-button">
+					<button class="edit-video-btn">
+						Edit Video
+					</button>
+				</div>
+			</div>
+		</div>
+		<div id="s4c2">
+			<div id="s4c21">
+				<div class="count">
+					<div class="count-bold">
+						11
+					</div>
+					<div class="count-normal">
+						Videos <br> added
+					</div>
+				</div>
+				<div class="count">
+					<div class="count-bold">
+						231
+					</div>
+					<div class="count-normal">
+						Students <br> Enrolled
+					</div>
+				</div>
+			</div>
+			<div id="s4c22">
+				Course Statistics
+			</div>
+			<div id="s4c23">
+				<div id="s4c231">
+					Course Views
+				</div>
+				<div class="dropdown" id="s4c232">
+					<div class="input-group mb-3">
+						<select class="custom-select" id="menu">
+							<option selected>...Select...</option>
+							<option value="daily">Daily</option>
+							<option value="weekly">Weekly</option>
+							<option value="monthly">Monthly</option>
+							<option value="yearly">Yearly</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div id="s424">
+				<img src="assets/graph.svg" alt="graph" id="graph">
+			</div>
+		</div>
+	</section>
+	<footer class="page-footer font-small mdb-color pt-4">
+		<div class="container text-center text-md-left">
+		<div class="row text-center text-md-left mt-3 pb-3">
+			<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" id="fcol1">
+			<h3 class="text-uppercase mb-4 font-weight-bold">PILOT</h3>
+			<h4 id="ftxt">Learn Courses</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida accumsan placerat quisque mattis nulla. Elementum, integer magna non netus vehicula egestas congue. Quis eget sem a euismod felis, quis accumsan, eu dictum. Mattis a egestas accumsan montes, erat accumsan habitasse.</p>
+			</div>
+			
+			<hr class="w-100 clearfix d-md-none">
+			
+			<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" id="fcol2">
+			<h3 class="text-uppercase mb-4 font-weight-bold">Sections</h3>
+				<a href="#!">About Us</a>
+				<br>
+				<a href="#!">Team</a>
+				<br>
+				<a href="#!">Courses</a>
+				<br>
+				<a href="#!">Login/Register</a>
+			</div>
+
+			<hr class="w-100 clearfix d-md-none">
+	
+			<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3" id="fcol3">
+			<h3 class="text-uppercase mb-4 font-weight-bold">Contact Us</h3>
+				<a href="#!">Email us</a>
+				<br>
+				<a href="#!">Share your Feedback</a>
+				<br>
+				<a href="#!">Ask Queries</a>
+				<br>
+				<a href="#!">Buy a Coffee</a>
+			</div>
+	
+			<hr class="w-100 clearfix d-md-none">
+	
+			<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" id="fcol4">
+				Center for Education Technology,
+				IIT Kharagpur, West Bengal
+				bikashsahoo779@gmail.com
+				<br>
+
+				<!--Social media icons-->
+				<div class="text-center text-md-right" id="social-media-icons">
+					<ul class="list-unstyled list-inline">
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm rgba-white-slight mx-1">
+							<i class="fab fa-twitter-square"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm rgba-white-slight mx-1">
+							<i class="fab fa-github-square"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm rgba-white-slight mx-1">
+						<i class="fab fa-linkedin"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm rgba-white-slight mx-1">
+						<i class="fab fa-instagram-square"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm rgba-white-slight mx-1">
+						<i class="fab fa-facebook-square"></i>
+						</a>
+					</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+</body>
+</html>
