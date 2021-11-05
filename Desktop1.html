@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous">
+	</script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous">
+	</script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous">
+	</script>
+	<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+		crossorigin="anonymous"/>
+	<script
+		src="https://kit.fontawesome.com/0ffcc1f717.js"
+		crossorigin="anonymous">
+	</script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+		crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" href="Desktop1-Styles.css"/>
+	<title>Desktop1</title>
+	<!-- <img src="https://img.icons8.com/fluency-systems-filled/48/fa314a/circled-p.png" class="me-2" height="40" alt=""/> -->
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white" id="menu">
+			<div class="container-fluid">
+				<!-- Toggle button -->
+				<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarCentered"
+				aria-controls="navbarCentered"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+				>
+				<i class="fas fa-bars"></i>
+				</button>
+				<div class="navbar-brand" id="brand">PILOT</div>
+				<div
+				class="collapse navbar-collapse justify-content-center"
+				id="navbarCentered"
+				>
+				<ul class="navbar-nav mb-2 mb-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link active" href="#">About</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link active" href="#">Contact</a>
+					</li>
+				</ul>
+				</div>
+				<div class="d-flex align-items-right">
+					<button type="button" class="btn btn-primary me-3" id="login">
+					  Login
+					</button>
+					<button type="button" class="btn btn-primary me-3" id="signup">
+					  Sign up
+					</button>
+				  </div>
+			</div>
+		</nav>
+	</header>
+
+	<section class="section1">
+		<img src="assets/sapiens.png" alt="cycling image" id="cycling-img">
+
+		<div id="section1-content">
+			<div id="s1c1">
+				Studies as smooth as your bicycle ride.
+			</div>
+			<div id="s1c2">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur scelerisque urna, integer tristique tristique.
+			</div>
+			<div id="s1c3">
+				<input class="form-control" type="text" placeholder="Enter your email" id="email">
+				<button id="subscribe">Subscribe</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="section2 justify-content-center">
+		<div id="s2c1">
+			<div class="s2bold" id="s2c11">
+				20+
+			</div>
+			<div class="s2small" id="s2c12">
+				Streams
+			</div>
+		</div>
+
+		<div id="s2c2">
+			<div class="s2bold" id="s2c21">
+				7638
+			</div>
+			<div class="s2small" id="s2c22">
+				Students
+			</div>
+		</div>
+		
+		<div id="s2c3">
+			<div class="s2bold" id="s2c31">
+				52+
+			</div>
+			<div class="s2small" id="s2c32">
+				Teachers
+			</div>
+		</div>
+	</section>
+
+	<section class="section3 justify-content-center">
+		<div id="s3c1">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer proin elementum suscipit aliquam arcu. Vulputate volutpat lacus elementum nibh pellentesque ut in. Non risus hac nisi, vehicula. Tortor, quis faucibus posuere tincidunt adipiscing sapien quis enim pretium.
+		</div>
+	</section>
+
+	<section class="section4">
+			<input class="form-control" type="text" placeholder="   What do you want to study?" id="txt-input">
+			<button id="enroll">Enroll for a course</button>
+	</section>
+
+	<section class="section5">
+		<div id="grid">
+			<div class="grid-box" id="s5g1">
+				<div class="svg" id="box1-svg">
+					<img src="assets/scholar.svg" alt="scholar image">
+				</div>
+				<div class="box-bold" id="box1-bold">
+					Student Friendly
+				</div>
+				<div class="box-normal">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui sit sed aliquet blandit sit in sed tempus
+				</div>
+			</div>
+
+			<div class="grid-box" id="s5g2">
+				<div class="svg" id="box2-svg">
+					<img src="assets/up-to-date.svg" alt="up-to-date">				
+				</div>
+				<div class="box-bold" id="box2-bold">
+					Up-to-date
+				</div>
+				<div class="box-normal">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui sit sed aliquet blandit sit in sed tempus
+				</div>
+			</div>
+
+			<div class="grid-box" id="s5g3">
+				<div class="svg" id="box3-svg">
+					<img src="assets/diamond.svg" alt="diamond image">
+				</div>
+				<div class="box-bold" id="box3-bold">
+					Premium
+				</div>
+				<div class="box-normal">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui sit sed aliquet blandit sit in sed tempus
+				</div>
+			</div>
+
+			<div class="grid-box" id="s5g4">
+				<div class="svg" id="box4-svg">
+					<img src="assets/stack-of-coins.svg" alt="stack of coins image">
+				</div>
+				<div class="box-bold" id="box4-bold">
+					Accessible
+				</div>
+				<div class="box-normal">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui sit sed aliquet blandit sit in sed tempus
+				</div>
+			</div>
+		</div>
+
+		<div id="s5c2">
+			<div id="s5c21">
+				Our Course Specialities
+			</div>
+			<div id="s5c22">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui sit sed aliquet blandit sit in sed tempus. Id sed volutpat suscipit in varius amet rhoncus, sodales. Consectetur tellus sagittis phasellus urna. Natoque eget aliquam
+			</div>
+			<div id="s5c23">
+				<button id="startnow">Start Now</button>
+			</div>
+		</div>
+	</section>
+
+	<footer class="page-footer font-small mdb-color pt-4">
+		<div class="container text-center text-md-left">
+		<div class="row text-center text-md-left mt-3 pb-3">
+			<div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" id="fcol1">
+			<h3 class="text-uppercase mb-4 font-weight-bold">PILOT</h3>
+			<h4 id="ftxt">Learn Courses</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida accumsan placerat quisque mattis nulla. Elementum, integer magna non netus vehicula egestas congue. Quis eget sem a euismod felis, quis accumsan, eu dictum. Mattis a egestas accumsan montes, erat accumsan habitasse.</p>
+			</div>
+			
+			<hr class="w-100 clearfix d-md-none">
+			
+			<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" id="fcol2">
+			<h3 class="text-uppercase mb-4 font-weight-bold">Sections</h3>
+				<a href="#!">About Us</a>
+				<br>
+				<a href="#!">Team</a>
+				<br>
+				<a href="#!">Courses</a>
+				<br>
+				<a href="#!">Login/Register</a>
+			</div>
+
+			<hr class="w-100 clearfix d-md-none">
+	
+			<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3" id="fcol3">
+			<h3 class="text-uppercase mb-4 font-weight-bold">Contact Us</h3>
+				<a href="#!">Email us</a>
+				<br>
+				<a href="#!">Share your Feedback</a>
+				<br>
+				<a href="#!">Ask Queries</a>
+				<br>
+				<a href="#!">Buy a Coffee</a>
+			</div>
+	
+			<hr class="w-100 clearfix d-md-none">
+	
+			<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" id="fcol4">
+				Center for Education Technology,
+				IIT Kharagpur, West Bengal
+				bikashsahoo779@gmail.com
+				<br>
+
+				<!--Social media icons-->
+				<div class="text-center text-md-right" id="social-media-icons">
+					<ul class="list-unstyled list-inline">
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm rgba-white-slight mx-1">
+							<i class="fab fa-twitter-square"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm rgba-white-slight mx-1">
+							<i class="fab fa-github-square"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm rgba-white-slight mx-1">
+						<i class="fab fa-linkedin"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm rgba-white-slight mx-1">
+						<i class="fab fa-instagram-square"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm rgba-white-slight mx-1">
+						<i class="fab fa-facebook-square"></i>
+						</a>
+					</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+</body>
+</html>
